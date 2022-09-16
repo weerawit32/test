@@ -6,11 +6,8 @@ function App() {
   const data = new Array(10).fill(null);
   const [indexOfItem, setIndexOfIItem] = useState(0);
 
-  const onRender = useCallback(() => {
     console.log(data)
-  },[data])
-
-  onRender();
+  
 
 
   return (
